@@ -8,7 +8,7 @@ import Tilt from 'react-parallax-tilt'
 import { motion } from 'framer-motion';
 import { headContainerAnimation, headTextAnimation,headContentAnimation } from '../../utils/motion'
 import StarCanvas from '../Canvas/Stars'
-import Resume from '../../images/ShantoKumarDas.pdf'
+import Resume from '../../images/ResumeShanto.pdf'
 
 const HeroContainer = styled.div`
     display: flex;
