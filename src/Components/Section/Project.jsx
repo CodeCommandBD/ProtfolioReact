@@ -2,7 +2,7 @@
 import React, { useState } from 'react'
 import styled from 'styled-components'
 import { projects } from "../../data/constants";
-import ProjectCard from "../card/ProjectCard";
+import ProjectCard from "../Card/ProjectCard";
 
 const Container = styled.div`
     display: flex;
