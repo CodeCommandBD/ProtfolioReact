@@ -51,12 +51,34 @@ export const skills = [
         name:"Tailwind CSS",
         image:"https://imgs.search.brave.com/oG3o98QjKAbPSLZPTOvPhupljLwbNmIQ42GfRq2TFXw/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly91cGxv/YWQud2lraW1lZGlh/Lm9yZy93aWtpcGVk/aWEvY29tbW9ucy9k/L2Q1L1RhaWx3aW5k/X0NTU19Mb2dvLnN2/Zw"
       },
-    
+      {
+        name: "Next.js",
+        image: "https://assets.vercel.com/image/upload/v1662130559/nextjs/Icon_light_background.png"
+      },
     ],
   },
  
   
 
+  {
+    title: "Extra Skills",
+    skills: [
+      {
+        name: "C",
+        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/C_Programming_Language.svg/1200px-C_Programming_Language.svg.png",
+      },
+      {
+        name: "C++",
+        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/ISO_C%2B%2B_Logo.svg/1822px-ISO_C%2B%2B_Logo.svg.png",
+      },
+      {
+        name: "Vue.js",
+        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Vue.js_Logo_2.svg/2367px-Vue.js_Logo_2.svg.png",
+      },
+     
+      
+    ],
+  },
   {
     title: "Others",
     skills: [
@@ -92,6 +114,7 @@ export const skills = [
       }
     ],
   },
+
 ];
 
 export const experiences = [
@@ -188,48 +211,33 @@ export const education = [
 export const projects = [
   {
     id: 11,
-    title: "DecisionHub",
-    date: "Jan 2024 - Dec 2023",
-    description:
-      'A Rule Builder application "Decision Hub" that empowers Business Analysts to create, save, and visualize decision strategies. Provide a no-code rule writing experience and visual representation to test these rules in real-time and observe the calculations at each step.',
-    image:
-      "https://github.com/rishavchanda/DecisionHub/raw/master/assets/testRule.jpg",
+    title: "SHaN E-COM",
+    date: "june 25 - july 1",
+    description: `SHaN E-COM is a modern e-commerce web application built with React.js, JavaScript, and Tailwind CSS. The project features a clean and responsive user interface, allowing users to browse products, add items to their cart, and experience a seamless shopping workflow. The application demonstrates best practices in component-based architecture, state management, and modern styling with Tailwind CSS. SHaN E-COM is designed for scalability and performance, making it a solid foundation for any online retail business.\n\nKey Features:\n- Product listing and detail pages\n- Shopping cart functionality\n- Responsive design for all devices\n- Fast and interactive user experience with React and Tailwind CSS`,
+    image: "https://i.postimg.cc/FK469rGh/website-image.png",
     tags: [
       "React Js",
-      "PostgressSQL",
-      "Node Js",
-      "Express Js",
-      "Redux",
-      "React Flow",
+      "JavaScript",
+      "Tailwind CSS"
     ],
     category: "web app",
-    github: "https://github.com/rishavchanda/DecisionHub",
-    webapp: "https://decisionhub.netlify.app/",
+    github: "https://github.com/CodeCommandBD/E-Com-React.git",
+    webapp: "https://e-commercere.netlify.app/",
   },
   {
     id: 9,
-    title: "Trackify",
-    date: "Jun 2023 - Jul 2023",
-    description:
-      "Trackify is a web application designed to streamline task management and enhance productivity in the workplace. It provides a user-friendly interface for employers to keep track of their employees' daily work activities and empowers employees to log their tasks efficiently. \nAdmin Credentials: # Email: testadmin@gmail.com #Password- 123@testadmin, Employee Credentials:	#Email: testemployee@gmail.com	#Password- 123@Testemployee",
-    image:
-      "https://user-images.githubusercontent.com/64485885/255202416-e1f89b04-2788-45b0-abc2-9dec616669e2.png",
+    title: "Protfolio",
+    date: "17 May - 5 Jun",
+    description: `Protfolio is a visually engaging personal portfolio website built with React.js, Three.js, and JavaScript. This project showcases interactive 3D elements and smooth animations, providing visitors with an immersive browsing experience. The site highlights your skills, projects, and professional background in a modern, responsive layout. By leveraging Three.js, the portfolio features dynamic backgrounds and effects that set it apart from traditional portfolios. The application is fully responsive, ensuring optimal viewing on any device, and demonstrates best practices in component-based design and web interactivity.\n\nKey Features:\n- Interactive 3D backgrounds and animations with Three.js\n- Clean, modern, and responsive design\n- Sections for skills, projects, experience, and contact\n- Fast performance and smooth navigation`,
+    image: "https://i.postimg.cc/SKRcMMTq/wesite-image-two.png",
     tags: [
-      "Docker",
-      "AWS",
-      "DuckDNS",
-      "Eslint",
-      "Husky",
-      "CI/CD",
-      "React Js",
-      "MongoDb",
-      "Node Js",
-      "Express Js",
-      "Redux",
+      "React js",
+      "Three js",
+      "javascript"
     ],
     category: "web app",
-    github: "https://github.com/rishavchanda/Trackify",
-    webapp: "https://trackify-management.netlify.app/",
+    github: "https://github.com/CodeCommandBD/ProtfolioReact.git",
+    webapp: "https://shanto-kumar.netlify.app/",
   },
   {
     id: 0,
